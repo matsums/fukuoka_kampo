@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>福岡漢方医院-治療料金</title>
+    <meta name="description" content="漢方治療の医院">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--リセットcss-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <!--js-->
+    <script src="https://kit.fontawesome.com/2bd75be9f4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body class="page">
+    <header class="page-header wrapper">
+        <h1><a href="index.html"><img class=logo src="images/logo4.png" alt="福岡漢方医院"></a></h1>
+        <div class="hamburger">
+            <nav class="page-nav">
+                <ul class="main-nav">
+                    <li><a href="index.html">
+                            <p>ホーム</p>
+                        </a></li>
+                    <li><a href="about.html">
+                            <p>当院について</p>
+                        </a></li>
+                    <li><a href="fee.html">
+                            <p>治療料金</p>
+                        </a></li>
+                    <li><a href="doctor.html">
+                            <p>医師紹介</p>
+                        </a></li>
+                    <li><a href="access.html">
+                            <p>アクセス</p>
+                        </a></li>
+                </ul>
+                <ul class="sec-nav">
+                    <li><a href="contact.html">
+                            <p class="nav-btn-contact"><i class="far fa-envelope"></i>お問合せ</p>
+                        </a></li>
+                    <li>
+                        <a href="tel:0120-1234-5678">
+                            <p class="nav-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="page-btn" onclick="myFunc()"><span class="fas fa-bars" title=""></span></button>
+            <button type="button" class="page-btn-close" onclick="myFunc()"><span class="fas fa-times" title=""></span></button>
+        </div>
+    </header>
+
+    <div id="fee" class="wrapper small-bg">
+        <h2 class="page-title">治療料金</h2>
+    </div><!-- /#doctor -->
+
+    <div class="fee-content wrapper content-bg">
+        <div class="fee-info">
+            <div class="fee-contents">
+                <h2 class="subtitle"><span>保険に</span><span>ついて</span></h2>
+                <img src="images/fee11.jpg" alt="">
+                <p><span>ほぼ全ての漢方薬治療に</span><span>保険が使えます。</span></p>
+                <p>エキス剤・丸薬・煎じ薬いずれもほとんどが保健適応です。ただし、治療上必要な場合はあくまでご相談の上で保険外の生薬を追加します。</p>
+            </div>
+            <div class="fee-contents">
+                <h2 class="subtitle"><span>漢方治療</span><span>料金</span></h2>
+                <img src="images/fee21.jpg" alt="">
+                <p><span>初診時は必要な検査代を含め</span><span>3000円から5000円位です。</span></p>
+                <p>再来時の費用は検査なしの場合で600円から1500円位です。いずれも3割負担の保険での、あくまで目安となります。</p>
+            </div>
+            <div class="fee-contents">
+                <h2 class="subtitle"><span>鍼灸治療</span><span>料金</span></h2>
+                <img src="images/fee31.jpg" alt="">
+                <p><span>本院では鍼灸治療に</span><span>保険は使えません。</span></p>
+                <p>本院では鍼灸治療院ではなく診療所ですので、保険が適用されません。鍼灸治療を希望される場合は手技料1000円、針1本あたり30円をいただきます。目安として合計1500円から2000円ほどになります。</p>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div><!--  /.fee-content-->
+    <p class="pagetop"><a href="#wrap"><i class="fas fa-chevron-up"></i><img src="images/totop.png" width="70" height="70" alt=""></a></p>
+    <footer class="wrapper">
+        <div class="footer-box">
+            <div class="footer-left footer-contents">
+                <p>〒812-0001<br>福岡県福岡市中央区天神1-1-1<br>西鉄天神駅より徒歩5分</p>
+                <p id="footer-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+            </div>
+            <div class="footer-middle footer-contents">
+                <a href="index.html"><img class=footer-logo src="images/logo5.png" alt="福岡漢方医院"></a>
+            </div>
+            <div class="footer-right footer-contents">
+                　<table>
+                    　 <tr>
+                        　 <th></th>
+                        　 <th>月</th>
+                        　 <th>火</th>
+                        　 <th>水</th>
+                        　 <th>木</th>
+                        　 <th>金</th>
+                        　 <th>土</th>
+                        　 <th>日</th>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午前</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午後</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 </tr>
+                    　 <caption class="footer-cap">午前 09&colon;30-12&colon;30<br>午後 13&colon;30-18&colon;30</caption>
+                    　</table>
+            </div>
+        </div>
+        <div class="footer-list">
+            <ul class="footer-list1">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">当院について</a></li>
+                <li><a href="fee.html">治療料金</a></li>
+                <li><a href="doctor.html">医師紹介</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="contact.html">お問合せ</a></li>
+            </ul>
+        </div>
+        <p><small id="copyright">&copy; 2021 福岡漢方医院</small></p>
+    </footer>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

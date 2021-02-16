@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>福岡漢方医院</title>
+    <meta name="description" content="漢方治療の医院">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--リセットcss-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <!--js-->
+    <script src="https://kit.fontawesome.com/2bd75be9f4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+
+<body class="page">
+    <div class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class=logo src="images/logo4.png" alt="福岡漢方医院"></a></h1>
+            <div class="hamburger">
+                <nav class="page-nav">
+                    <ul class="main-nav">
+                        <li><a href="index.html">
+                                <p>ホーム</p>
+                            </a></li>
+                        <li><a href="about.html">
+                                <p>当院について</p>
+                            </a></li>
+                        <li><a href="fee.html">
+                                <p>治療料金</p>
+                            </a></li>
+                        <li><a href="doctor.html">
+                                <p>医師紹介</p>
+                            </a></li>
+                        <li><a href="access.html">
+                                <p>アクセス</p>
+                            </a></li>
+                    </ul>
+                    <ul class="sec-nav">
+                        <li><a href="contact.html">
+                                <p class="nav-btn-contact"><i class="far fa-envelope"></i>お問合せ</p>
+                            </a></li>
+                        <li><a href="tel:0120-1234-5678">
+                                <p class="nav-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+                            </a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="page-btn" onclick="myFunc()"><span class="fas fa-bars" title=""></span></button>
+                <button type="button" class="page-btn-close" onclick="myFunc()"><span class="fas fa-times" title=""></span></button>
+            </div>
+        </header>
+
+        <div id="home" class="home-content wrapper">
+            <h2 class="page-title"><span>漢方の</span><span>ちから。</span></h2>
+            <p>オーダーメイドの漢方薬で体質を改善し、自然治癒力を高めましょう。<br>丁寧な問診をもとに、お一人お一人にぴったりな処方をいたします。<br>どうぞお気軽にご来院ください。</p>
+            <a class="home-scroll" id="scroll-before" href="#scroll-after"></a>
+        </div><!-- /.home-content -->
+
+        <div id="scroll-after" class="top-content wrapper content-bg">
+            <div class="top-top">
+                <div class="top-left">
+                    <h2 class="subtitle">お知らせ</h2>
+                    <div class="top-left-item">
+                        <div class="top-news top-news1">
+                            <dl class="top-news-list">
+                                <dd class="top-date
+                            ">2021.02.21</dd>
+                                <dt class="top-text">拙著「薬膳のすすめ」をお買い求めいただけます。</dt>
+                            </dl>
+                        </div>
+                        <div class="top-news top-news2">
+                            <dl class="top-news-list">
+                                <dd class="top-date
+                            ">2021.01.15</dd>
+                                <dt class="top-text">談話スペースの改装工事が完了しました。</dt>
+                            </dl>
+                        </div>
+                        <div class="top-news top-news3">
+                            <dl class="top-news-list">
+                                <dd class="top-date
+                            ">2020.12.15</dd>
+                                <dt class="top-text">漢方専門医・看護師・医療事務を募集中です。</dt>
+                            </dl>
+                        </div>
+                        <div class="top-news top-news4">
+                            <dl class="top-news-list">
+                                <dd class="top-date
+                            ">2020.11.22</dd>
+                                <dt class="top-text">薬用アロマオイルを入荷いたしました。</dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-right">
+                    <div class="top-cov">
+                        <h2 class="subtitle">COVID-19対策</h2>
+                        <div class="top-cov-info">
+                            <p class="top-cov-info1">新型コロナ感染症拡大防止の為に、<span>発熱その他感冒様症状のある患者様は、来院前に必ずお電話で症状をお伝えください。</span>こちらから診察の日時を指定させていただきます。また、当院受診歴のない患者様には、他院発熱外来をご紹介させていただく場合がございます。当院では下記のような感染症予防対策を実施しています。</p>
+                            <ul>
+                                <li>
+                                    <p>約15分毎に、スタッフが患者さまの手が触れる箇所をアルコール消毒しています。また、院内各所に手指消毒用アルコールを設置しています。</p>
+                                </li>
+                                <li>
+                                    <p>受付カウンターに、顔認証型自動検温器を設置しました。来院の際は検温をお願いいたします。</p>
+                                </li>
+                                <li>
+                                    <p>院内5箇所に特殊フィルター搭載空気清浄機を設置しました。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top-cal">
+                        <h2 class="subtitle">診療カレンダー</h2>
+                        <div>
+                            <table class="cal">
+                                <tr>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                    <th>土</th>
+                                    <th>日</th>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="">
+                                    </td>
+                                    <td align="center" class="">
+                                        2/1</td>
+                                    <td align="center" class="">
+                                        2</td>
+                                    <td align="center" class="close">
+                                        3</td>
+                                    <td align="center" class="">
+                                        4</td>
+                                    <td align="center" class="">
+                                        5</td>
+                                    <td align="center" class="half">
+                                        6</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="">
+                                        7</td>
+                                    <td align="center" class="">
+                                        8</td>
+                                    <td align="center" class="">
+                                        9</td>
+                                    <td align="center" class="close">
+                                        10</td>
+                                    <td align="center" class="">
+                                        11</td>
+                                    <td align="center" class="">
+                                        12</td>
+                                    <td align="center" class="half">
+                                        13</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="">
+                                        14</td>
+                                    <td align="center" class="">
+                                        15</td>
+                                    <td align="center" class="">
+                                        16</td>
+                                    <td align="center" class="close">
+                                        17</td>
+                                    <td align="center" class="">
+                                        18</td>
+                                    <td align="center" class="">
+                                        19</td>
+                                    <td align="center" class="half">
+                                        20</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="">
+                                        21</td>
+                                    <td align="center" class="">
+                                        22</td>
+                                    <td align="center" class="">
+                                        23</td>
+                                    <td align="center" class="close">
+                                        24</td>
+                                    <td align="center" class="">
+                                        25</td>
+                                    <td align="center" class="">
+                                        26</td>
+                                    <td align="center" class="half">
+                                        27</td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="">
+                                        28</td>
+                                    <td align="center" class="">
+                                        3/1</td>
+                                    <td align="center" class="">
+                                        2</td>
+                                    <td align="center" class="close">
+                                        3</td>
+                                    <td align="center" class="">
+                                        4</td>
+                                    <td align="center" class="">
+                                        5</td>
+                                    <td align="center" class="half">
+                                        6</td>
+                                </tr>
+                            </table>
+                            <table class="calintro">
+                                <tr>
+                                    <td class="close">休診</td>
+                                    <td class="half">午後休診</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--  /.top-content-->
+    </div>
+    <p class="pagetop"><a href="#wrap"><i class="fas fa-chevron-up"></i><img src="images/totop.png" width="70" height="70" alt=""></a></p>
+    <footer class="wrapper">
+        <div class="footer-box">
+            <div class="footer-left footer-contents">
+                <p>〒812-0001<br>福岡県福岡市中央区天神1-1-1<br>西鉄天神駅より徒歩5分</p>
+                <p id="footer-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+            </div>
+            <div class="footer-middle footer-contents">
+                <a href="index.html"><img class=footer-logo src="images/logo5.png" alt="福岡漢方医院"></a>
+            </div>
+            <div class="footer-right footer-contents">
+                　<table>
+                    　 <tr>
+                        　 <th></th>
+                        　 <th>月</th>
+                        　 <th>火</th>
+                        　 <th>水</th>
+                        　 <th>木</th>
+                        　 <th>金</th>
+                        　 <th>土</th>
+                        　 <th>日</th>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午前</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午後</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 </tr>
+                    　 <caption class="footer-cap">午前 09&colon;30-12&colon;30<br>午後 13&colon;30-18&colon;30</caption>
+                    　</table>
+            </div>
+        </div>
+        <div class="footer-list">
+            <ul class="footer-list1">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">当院について</a></li>
+                <li><a href="fee.html">治療料金</a></li>
+                <li><a href="doctor.html">医師紹介</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="contact.html">お問合せ</a></li>
+            </ul>
+        </div>
+        <p><small id="copyright">&copy; 2021 福岡漢方医院</small></p>
+    </footer>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

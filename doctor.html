@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>福岡漢方医院-医師紹介</title>
+    <meta name="description" content="漢方治療の医院">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--リセットcss-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <!--js-->
+    <script src="https://kit.fontawesome.com/2bd75be9f4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body class="page">
+    <header class="page-header wrapper">
+        <h1><a href="index.html"><img class=logo src="images/logo4.png" alt="福岡漢方医院"></a></h1>
+        <div class="hamburger">
+            <nav class="page-nav">
+                <ul class="main-nav">
+                    <li><a href="index.html">
+                            <p>ホーム</p>
+                        </a></li>
+                    <li><a href="about.html">
+                            <p>当院について</p>
+                        </a></li>
+                    <li><a href="fee.html">
+                            <p>治療料金</p>
+                        </a></li>
+                    <li><a href="doctor.html">
+                            <p>医師紹介</p>
+                        </a></li>
+                    <li><a href="access.html">
+                            <p>アクセス</p>
+                        </a></li>
+                </ul>
+                <ul class="sec-nav">
+                    <li><a href="contact.html">
+                            <p class="nav-btn-contact"><i class="far fa-envelope"></i>お問合せ</p>
+                        </a></li>
+                    <li>
+                        <a href="tel:0120-1234-5678"><p class="nav-tel"><i class="fas fa-phone"></i>0120-123-4567</p></a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="page-btn" onclick="myFunc()"><span class="fas fa-bars" title=""></span></button>
+            <button type="button" class="page-btn-close" onclick="myFunc()"><span class="fas fa-times" title=""></span></button>
+        </div>
+    </header>
+
+    <div id="doctor" class="wrapper small-bg">
+        <h2 class="page-title">医師紹介</h2>
+    </div><!-- /#doctor -->
+
+    <div class="doctor-content wrapper content-bg">
+        <div class="doctor-img">
+            <img src="images/doc-face.jpg" alt="福岡華子医師">
+        </div>
+        <div class="doctor-info">
+            <h2 class="subtitle">医師紹介</h2>
+            <p>福岡 華子 &#40;Fukuoka Hanako&#41;</p>
+            <p>日本皮膚科学会認定 皮膚科専門医</p>
+            <p>日本東洋医学会認定 漢方専門医</p>
+            <p>日本美容皮膚科学会会員</p>
+            <p>産業医資格</p>
+            <h2 class="subtitle">略歴</h2>
+            <p>2002年 福岡県立医科大学卒</p>
+            <p>2003年 アメリカ大学で免疫学を学ぶ</p>
+            <p>2004年 福岡県立医科大学附属病院</p>
+            <p>2005年 済清会福岡県病院</p>
+            <p>2006年 福岡県立医科大学附属病院</p>
+            <p>2008年 福岡市立総合医療センター</p>
+            <p>2009年 第二天神総合病院</p>
+            <p>2010年 同医長、退職</p>
+            <p>2012年 長崎クリニック</p>
+            <p>2016年 同退職、以降佐賀診療所、大分皮フ科クリニック等で非常勤</p>
+            <p>2018年 福岡漢方医院 開設</p>
+        </div>
+    </div><!--  /.doctor-content-->
+<p class="pagetop"><a href="#wrap"><i class="fas fa-chevron-up"></i><img src="images/totop.png" width="70" height="70" alt=""></a></p>
+    <footer class="wrapper">
+        <div class="footer-box">
+            <div class="footer-left footer-contents">
+                <p>〒812-0001<br>福岡県福岡市中央区天神1-1-1<br>西鉄天神駅より徒歩5分</p>
+                <p id="footer-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+            </div>
+            <div class="footer-middle footer-contents">
+                <a href="index.html"><img class=footer-logo src="images/logo5.png" alt="福岡漢方医院"></a>
+            </div>
+            <div class="footer-right footer-contents">
+                　<table>
+                    　 <tr>
+                        　 <th></th>
+                        　 <th>月</th>
+                        　 <th>火</th>
+                        　 <th>水</th>
+                        　 <th>木</th>
+                        　 <th>金</th>
+                        　 <th>土</th>
+                        　 <th>日</th>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午前</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午後</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 </tr>
+                    　 <caption class="footer-cap">午前 09&colon;30-12&colon;30<br>午後 13&colon;30-18&colon;30</caption>
+                    　</table>
+            </div>
+        </div>
+        <div class="footer-list">
+        <ul class="footer-list1">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="about.html">当院について</a></li>
+            <li><a href="fee.html">治療料金</a></li>
+            <li><a href="doctor.html">医師紹介</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="contact.html">お問合せ</a></li>
+        </ul>
+        </div>
+        <p><small id="copyright">&copy; 2021 福岡漢方医院</small></p>
+    </footer>   
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

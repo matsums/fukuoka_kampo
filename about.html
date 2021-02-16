@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>福岡漢方医院-当院について</title>
+    <meta name="description" content="漢方治療の医院">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--リセットcss-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--js-->
+    <script src="https://kit.fontawesome.com/2bd75be9f4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body class="page">
+    <header class="page-header wrapper">
+        <h1><a href="index.html"><img class=logo src="images/logo4.png" alt="福岡漢方医院"></a></h1>
+        <div class="hamburger">
+            <nav class="page-nav">
+                <ul class="main-nav">
+                    <li><a href="index.html">
+                            <p>ホーム</p>
+                        </a></li>
+                    <li><a href="about.html">
+                            <p>当院について</p>
+                        </a></li>
+                    <li><a href="fee.html">
+                            <p>治療料金</p>
+                        </a></li>
+                    <li><a href="doctor.html">
+                            <p>医師紹介</p>
+                        </a></li>
+                    <li><a href="access.html">
+                            <p>アクセス</p>
+                        </a></li>
+                </ul>
+                <ul class="sec-nav">
+                    <li><a href="contact.html">
+                            <p class="nav-btn-contact"><i class="far fa-envelope"></i>お問合せ</p>
+                        </a></li>
+                    <li>
+                        <a href="tel:0120-1234-5678">
+                            <p class="nav-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="page-btn" onclick="myFunc()"><span class="fas fa-bars" title=""></span></button>
+            <button type="button" class="page-btn-close" onclick="myFunc()"><span class="fas fa-times" title=""></span></button>
+        </div>
+    </header>
+
+    <div id="about" class="wrapper small-bg">
+        <h2 class="page-title">当院について</h2>
+    </div><!-- /#about -->
+
+    <div class="about-content wrapper content-bg">
+        <div class="about-info1">
+            <h2 class="subtitle">当院について</h2>
+            <h3>
+                <p><span>本来の自然治癒力を高める医療を</span><span>行うクリニック</span></p>
+            </h3>
+            <p>「病院に通っても一向によくならない」<br>「なんとなく身体の調子が悪い」<br>「薬の副作用に不安を感じている」<br>といったことはありませんか？</p>
+            <p>漢方は、身体に優しく副作用が少ないのはもちろん、体質を変えることで病気になりにくい身体をつくることが可能です。当院では漢方治療を主軸に、必要とご希望に応じてカウンセリングやその他自然療法を取り入れ、お困りの解決のお手伝いをします。</p>
+        </div>
+        <div class="about-info2">
+            <h2 class="subtitle">当院のこだわり</h2>
+            <article class="about-item">
+                <div class="about-info2-info">
+                    <div data-aos="fade-up">
+                        <h3>
+                            <p>生薬へのこだわり</p>
+                        </h3>
+                        <p>当院では独自のネットワークを用いて厳選された生薬を調達し、患者さまに提供しております。これらの生薬を用いることで、効果的な漢方治療を目指します。</p>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h3>
+                            <p>実践に裏打ちされた配合</p>
+                        </h3>
+                        <p>創業以来、担当医師が患者さまお一人お一人と向き合い、漢方治療を模索し続けてきました。その中で、当院にて実現できる漢方の処方が徐々に形になり、確立されてきました。</p>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h3>
+                            <p>西洋医学との統合医療</p>
+                        </h3>
+                        <p>時に漢方治療よりも西洋医学的なアプローチが必要な場合もあり、それをお勧めする場合もあります。患者さまを中心とした西洋医学と漢方医学の統合医療を目指しています。</p>
+                    </div>
+                </div>
+                <div class="about-info2-img"><img src="images/about1.jpg" alt=""></div>
+            </article>
+        </div>
+        <div class="about-info3">
+            <h2 class="subtitle">診療の流れ</h2>
+            <article class="about-item">
+                <div class="about-info3-info">
+                    <ol>
+                        <li data-aos="fade-up">
+                            <div class="about-info3-head">
+                                <p class="about-info3-order">1</p>
+                                <h3>
+                                    <p>受付・問診票記入</p>
+                                </h3>
+                            </div>
+                            <div class="about-info3-item">
+                                <p>ご来院いただき、受付後、問診票をお渡ししますので、お悩みの症状などご記入ください。</p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up">
+                            <div class="about-info3-head">
+                                <p class="about-info3-order">2</p>
+                                <h3>
+                                    <p>診察</p>
+                                </h3>
+                            </div>
+                            <div class="about-info3-item">
+                                <p>診察室にご案内した後、担当医師が漢方医学の伝統的な診察法を行います。脈を取ったり、舌を見たり、お腹を触って患者様の状態を確かめます。</p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up">
+                            <div class="about-info3-head">
+                                <p class="about-info3-order">3</p>
+                                <h3>
+                                    <p>治療方針決定</p>
+                                </h3>
+                            </div>
+                            <div class="about-info3-item">
+                                <p>主治医が診察結果から今後の治療方針を決め、お話させていただきます。患者様にご納得いただけるよう、しっかりとしたコミュニケーションを心がけております。</p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up">
+                            <div class="about-info3-head">
+                                <p class="about-info3-order">4</p>
+                                <h3>
+                                    <p>処方</p>
+                                </h3>
+                            </div>
+                            <div class="about-info3-item">
+                                <p>当院では漢方薬の院内処方を行います。医師の処方箋に従って漢方薬をお出しし、漢方薬の服用の仕方をご説明差し上げます。</p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up">
+                            <div class="about-info3-head">
+                                <p class="about-info3-order">5</p>
+                                <h3>
+                                    <p>再診</p>
+                                </h3>
+                            </div>
+                            <div class="about-info3-item">
+                                <p>原則として2週間後、最初の処方による効果を確認するため、再度ご来院いただきます。その際、主治医から経過について説明させていただきます。</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="about-info3-img"><img src="images/about3.jpg" alt=""></div>
+            </article>
+        </div>
+        <div class="about-info4">
+            <h2 class="subtitle">漢方に適した症状</h2>
+            <article class="about-item">
+                <div class="about-info4-info" data-aos="fade-up">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>体質</th>
+                                <td>のぼせ、ほてり、冷え性、しもやけ</td>
+                            </tr>
+                            <tr>
+                                <th>全身</th>
+                                <td>倦怠感、疲労感</td>
+                            </tr>
+                            <tr>
+                                <th>精神</th>
+                                <td>抑うつ感、精神不安、パニック、不眠症（悪夢）、動悸</td>
+                            </tr>
+                            <tr>
+                                <th>感染症</th>
+                                <td>風邪、風邪に続く慢性咳、微熱、倦怠感（※細菌感染による肺炎や腹部感染症、尿路感染症は抗生剤が必須です。）</td>
+                            </tr>
+                            <tr>
+                                <th>頭部</th>
+                                <td>頭痛、めまい、鼻づまり、アレルギー性鼻炎、慢性鼻炎、のどの詰まり感、耳閉感、耳鳴</td>
+                            </tr>
+                            <tr>
+                                <th>腹部</th>
+                                <td>食欲不振、腹の張り、嘔気、嘔吐、反復性の腹痛、慢性下痢、便秘症</td>
+                            </tr>
+                            <tr>
+                                <th>皮膚</th>
+                                <td>かゆみ、蕁麻疹、慢性湿疹</td>
+                            </tr>
+                            <tr>
+                                <th>婦人科</th>
+                                <td>月経困難症、更年期症候群（のぼせ、頭部発汗、めまい感）</td>
+                            </tr>
+                            <tr>
+                                <th>乳幼児</th>
+                                <td>夜泣き、乳幼児小児の湿疹、夜尿症、精神興奮による寝つき不良、怒りっぽさの改善、虚弱体質（食が細い、腹痛、下痢）</td>
+                            </tr>
+                            <tr>
+                                <th>がん患者</th>
+                                <td>食欲不振、全身倦怠感、抗がん剤の副作用（手足のしびれ）、便秘、下痢</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="about-info4-img"><img src="images/about4.jpg" alt=""></div>
+            </article>
+        </div>
+    </div><!--  /.about-content-->
+    <p class="pagetop"><a href="#wrap"><i class="fas fa-chevron-up"></i><img src="images/totop.png" width="70" height="70" alt=""></a></p>
+    <footer class="wrapper">
+        <div class="footer-box">
+            <div class="footer-left footer-contents">
+                <p>〒812-0001<br>福岡県福岡市中央区天神1-1-1<br>西鉄天神駅より徒歩5分</p>
+                <p id="footer-tel"><i class="fas fa-phone"></i>0120-123-4567</p>
+            </div>
+            <div class="footer-middle footer-contents">
+                <a href="index.html"><img class=footer-logo src="images/logo5.png" alt="福岡漢方医院"></a>
+            </div>
+            <div class="footer-right footer-contents">
+                　<table>
+                    　 <tr>
+                        　 <th></th>
+                        　 <th>月</th>
+                        　 <th>火</th>
+                        　 <th>水</th>
+                        　 <th>木</th>
+                        　 <th>金</th>
+                        　 <th>土</th>
+                        　 <th>日</th>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午前</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 </tr>
+                    　 <tr>
+                        　 <td>午後</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&#9675;</td>
+                        　 <td>&minus;</td>
+                        　 </tr>
+                    　 <caption class="footer-cap">午前 09&colon;30-12&colon;30<br>午後 13&colon;30-18&colon;30</caption>
+                    　</table>
+            </div>
+        </div>
+        <div class="footer-list">
+            <ul class="footer-list1">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">当院について</a></li>
+                <li><a href="fee.html">治療料金</a></li>
+                <li><a href="doctor.html">医師紹介</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="contact.html">お問合せ</a></li>
+            </ul>
+        </div>
+        <p><small id="copyright">&copy; 2021 福岡漢方医院</small></p>
+    </footer>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
